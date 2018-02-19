@@ -1,35 +1,10 @@
 // database is let instead of const to allow us to modify it in test.js
 let database = {
   users: {
-    // username-1: {
-    //   username: username-1,
-    //   articleIds: [],
-    //   commentIds: []
-    // },
-    // ...
   },
   articles: {
-    // 'article-id-1': {
-    //   id: database.nextArticleId++,
-    //   title: requestArticle.title,
-    //   url: requestArticle.url,
-    //   username: requestArticle.username,
-    //   commentIds: [],
-    //   upvotedBy: [],
-    //   downvotedBy: []
-    // },
-    // ...
   },
   comments: {
-    // 'comment-id-1': {
-    //   id: database.nextCommentId++,
-    //   body: body,
-    //   username: username,
-    //   articleId: articleId,
-    //   upvotedBy: [],
-    //   downvotedBy: []
-    // },
-    // ...
   },
   nextArticleId: 1,
   nextCommentId: 1
